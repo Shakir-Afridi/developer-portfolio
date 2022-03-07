@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Email",
+    "url": "mailto:shakir.development@gmail.com",
+    "icon": ["fab", "telegram-plane"],
+    "isMain": true
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/Shakir-Afridi",
+    "icon": ["fab", "github"],
+    "isMain": false
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/shakir-ullah-201650/",
+    "icon": ["fab", "linkedin"],
+    "isMain": false
+  },
+  {
+    "name": "Facebook",
+    "url": "https://www.linkedin.com/in/shakir-ullah-201650/",
+    "icon": ["fab", "facebook"],
+    "isMain": false
+  },
+  {
+    "name": "Twitter",
+    "url": "https://www.linkedin.com/in/shakir-ullah-201650/",
+    "icon": ["fab", "twitter"],
+    "isMain": false
+  }
+]
