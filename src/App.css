@@ -1,0 +1,16 @@
+
+.carousel-inner{
+  height: 550px;
+}
+.carousel-inner img{
+  width: auto; 
+  height: 550px;
+}
+.carousel-control-prev .visually-hidden,
+.carousel-control-next .visually-hidden{
+  display: none;
+}
+.carousel-control-prev .carousel-control-prev-icon,
+.carousel-control-next .carousel-control-next-icon{
+  
+}

@@ -1,7 +1,3 @@
-/**
- * Extracts username and repo name from given url.
- * @param repoUrl GitHub url
- */
 export const getGHCredentials = (
   repoUrl: string,
 ): { username: string; repo: string } => {

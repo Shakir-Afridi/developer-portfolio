@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from '../pages/Home';
 import { PageLink, TabLink } from '../models';
-import { jsOrange, midBlue, green, pink, red } from '../theme/colors';
+import { jsOrange, midBlue, green, pink } from '../theme/colors';
 
 import staticData from './json/static.json';
 import contactData from './json/contact.json';
@@ -10,7 +10,7 @@ import pkg from '../../package.json';
 import Aboutme from '../pages/Aboutme';
 import Projects from '../pages/Projects';
 import Services from '../pages/Services';
-import ContactUs from '../pages/ContactUs';
+import MyWork from '../pages/MyWork';
 
 export const pages: PageLink[] = [
   {
@@ -57,19 +57,12 @@ export const tabs: TabLink[] = [
     ),
   },
   {
-    name: 'contactus.html',
-    url: '/contactUs',
+    name: 'mywork.html',
+    url: '/mywork',
     icon: ['fab', 'html5'],
     color: midBlue,
     comp: () => (
-      <ContactUs />
+      <MyWork />
     ),
   },
-  // {
-  //   name: 'certificates.sass',
-  //   url: '/certificates',
-  //   icon: ['fab', 'sass'],
-  //   color: pink,
-  //   mdFileName: 'certificates',
-  // },
 ];

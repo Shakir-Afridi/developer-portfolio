@@ -2,6 +2,7 @@ import React from "react";
 import { Router } from "@reach/router";
 import MainLayout from "./layouts/Main";
 import routes from "./routes";
+import './App.css'
 
 import { tabs } from "./data";
 import contactData from "./data/json/contact.json";

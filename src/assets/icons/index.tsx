@@ -8,8 +8,11 @@ import SqlIcon from './sql.svg'
 import MySQLIcon from './mysql.svg'
 import PostgreSQLIcon from './postgresql.svg'
 import VsCodeIcon from './vscode.svg'
+import ChevronLeft from './chevron_left.svg'
+import ChevronRight from './chevron_right.svg'
 
 export {
+  ChevronLeft, ChevronRight,
   ReactIcon,
   NodeIcon,
   CSSIcon,
@@ -18,6 +21,6 @@ export {
   GitHubIcon,
   SqlIcon,
   MySQLIcon,
-  PostgreSQLIcon, 
+  PostgreSQLIcon,
   VsCodeIcon
 }

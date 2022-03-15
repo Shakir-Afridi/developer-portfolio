@@ -3,8 +3,6 @@
  */
 import React from "react";
 import { createUseStyles } from "react-jss";
-import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import ButtonLink from "../../../../components/ButtonLink";
 import GHButton, { GHButtonProps } from "../../../../components/GHButton";
 import { ContactItem } from "../../../../models";
 import { getGHCredentials } from "../../../../utils";

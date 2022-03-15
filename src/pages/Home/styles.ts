@@ -60,4 +60,7 @@ export default {
   '.typed-cursor': {
     color: midBlue,
   },
+  image:{
+    width: '150px'
+   },
 } as Styles;

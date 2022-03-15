@@ -44,7 +44,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({
       >
         <Header tabs={tabs} />
         <div className={classes.mainContent}>
-        {children}
+          {children}
         </div>
       </main>
       <StatusBar />
